@@ -18,7 +18,7 @@
          <children>
             <ImageView fx:id="pizzaImagem" fitHeight="89.0" fitWidth="93.0" layoutX="179.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="C:/Users/notes/Desktop/Restaurante/LoginCadastro Cliente/Icone.png" />
+                  <Image url="@../../../../java/Restaurante/Bebidas/voltar.png" />
                </image></ImageView>
             <Button fx:id="botaoFechar" layoutX="390.0" layoutY="14.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="29.0" style="-fx-background-color: TRANSPARENT; -fx-background-radius: 15px;" text="X" textFill="WHITE">
                <font>
