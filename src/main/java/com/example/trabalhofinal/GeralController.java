@@ -24,9 +24,6 @@ public class GeralController implements Initializable {
     private Button botaoFechar;
 
     @FXML
-    private Button botaoFuncionario;
-
-    @FXML
     private AnchorPane painelPrincipal;
 
     @FXML

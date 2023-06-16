@@ -9,17 +9,16 @@
 
 <AnchorPane fx:id="painelPrincipal" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="611.0" prefWidth="451.0" style="-fx-background-color: transparent; -fx-background-radius: 20px;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.trabalhofinal.GeralController">
    <children>
-      <AnchorPane fx:id="retnaguloFC" layoutX="99.0" layoutY="180.0" prefHeight="200.0" prefWidth="253.0" style="-fx-background-color: WHITE; -fx-background-radius: 20px;">
+      <AnchorPane fx:id="retnaguloFC" layoutX="99.0" layoutY="180.0" prefHeight="131.0" prefWidth="254.0" style="-fx-background-color: WHITE; -fx-background-radius: 20px;">
          <children>
-            <Button fx:id="botaoFuncionario" layoutX="43.0" layoutY="74.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="168.0" style="-fx-background-color: #FFA500; -fx-background-radius: 15px;" text="Funcionário" textFill="WHITE" />
-            <Button fx:id="botaoCliente" layoutX="43.0" layoutY="116.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="168.0" style="-fx-background-color: #FFA500; -fx-background-radius: 15px;" text="Cliente" textFill="WHITE" />
+            <Button fx:id="botaoCliente" layoutX="43.0" layoutY="68.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="168.0" style="-fx-background-color: #FFA500; -fx-background-radius: 15px;" text="login" textFill="WHITE" />
          </children>
       </AnchorPane>
       <AnchorPane fx:id="retanguloCima" prefHeight="200.0" prefWidth="451.0" style="-fx-background-radius: 20px; -fx-background-color: #FFA500;">
          <children>
             <ImageView fx:id="pizzaImagem" fitHeight="89.0" fitWidth="93.0" layoutX="179.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="file:///C:/Users/Computador/OneDrive%20-%20Sociedade%20Goiana%20de%20Cultura/Pizza.png" />
+                  <Image url="C:/Users/notes/Desktop/Restaurante/LoginCadastro Cliente/Icone.png" />
                </image></ImageView>
             <Button fx:id="botaoFechar" layoutX="390.0" layoutY="14.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="29.0" style="-fx-background-color: TRANSPARENT; -fx-background-radius: 15px;" text="X" textFill="WHITE">
                <font>
