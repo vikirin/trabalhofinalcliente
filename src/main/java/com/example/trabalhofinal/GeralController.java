@@ -27,7 +27,7 @@ public class GeralController implements Initializable {
     private AnchorPane painelPrincipal;
 
     @FXML
-    private ImageView pizzaImagem;
+    private ImageView imagemLogo;
 
     @FXML
     private Label pizzaLabel;

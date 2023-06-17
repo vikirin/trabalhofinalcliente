@@ -16,18 +16,18 @@
                <children>
                   <ImageView fx:id="imagemVoltar" fitHeight="33.0" fitWidth="28.0" layoutX="530.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="file:///C:/Users/Computador/OneDrive%20-%20Sociedade%20Goiana%20de%20Cultura/voltar.png" />
+                        <Image url="@../../../../../../../../OneDrive%20-%20Sociedade%20Goiana%20de%20Cultura/Restaurante/Carrinho/voltar.png" />
                      </image>
                   </ImageView>
                   <Button fx:id="botaoVoltar" alignment="CENTER" contentDisplay="RIGHT" layoutX="518.0" layoutY="56.0" minWidth="41.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="41.0" style="-fx-background-color: transparent;" />
                   <ImageView fx:id="imagemPizza" fitHeight="27.0" fitWidth="27.0" layoutX="670.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="file:///C:/Users/Computador/OneDrive%20-%20Sociedade%20Goiana%20de%20Cultura/fatiaP.png" />
+                        <Image url="@../../../../../../../../OneDrive%20-%20Sociedade%20Goiana%20de%20Cultura/Restaurante/Carrinho/fatiaP.png" />
                      </image>
                   </ImageView>
                   <ImageView fx:id="imagemCopo" fitHeight="44.0" fitWidth="26.0" layoutX="800.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="file:///C:/Users/Computador/OneDrive%20-%20Sociedade%20Goiana%20de%20Cultura/taça.png" />
+                        <Image url="@../../../../../../../../OneDrive%20-%20Sociedade%20Goiana%20de%20Cultura/Restaurante/Carrinho/ta├ºa.png" />
                      </image>
                   </ImageView>
                   <Button fx:id="botaoBebidas" layoutX="764.0" layoutY="55.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="99.0" style="-fx-background-color: transparent;" />
@@ -39,28 +39,23 @@
                   </Button>
                </children>
             </AnchorPane>
-            <ImageView fx:id="imagemCarrinho" fitHeight="102.0" fitWidth="73.0" layoutX="31.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="file:///C:/Users/Computador/OneDrive%20-%20Sociedade%20Goiana%20de%20Cultura/carrinho.png" />
-               </image>
-            </ImageView>
             <Label fx:id="tituloLabel" layoutX="116.0" layoutY="54.0" text="Carrinhos de Compras" textFill="WHITE">
                <font>
                   <Font name="Arial Rounded MT Bold" size="38.0" />
                </font>
             </Label>
+            <ImageView fx:id="imagemCarrinho" fitHeight="90.0" fitWidth="90.0" layoutX="15.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../OneDrive%20-%20Sociedade%20Goiana%20de%20Cultura/Restaurante/Carrinho/carrinho.png" />
+               </image>
+            </ImageView>
          </children>
       </AnchorPane>
       <Button fx:id="botaoFinalizar" layoutX="891.0" layoutY="712.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="245.0" style="-fx-background-color: green; -fx-background-radius: 15px;" text="Finalizar Pedido" textFill="WHITE" />
-      <ImageView fx:id="imagemPizza" fitHeight="81.0" fitWidth="41.0" layoutX="837.0" layoutY="669.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="file:///C:/Users/Computador/OneDrive%20-%20Sociedade%20Goiana%20de%20Cultura/fatia.png" />
-         </image>
-      </ImageView>
       <Button fx:id="botaoEditarPedido" layoutX="64.0" layoutY="717.0" mnemonicParsing="false" style="-fx-background-radius: 10px; -fx-background-color: #FFA500;" text="Excluir Pedido" textFill="WHITE" />
       <ScrollPane fx:id="scrollpiizza" layoutX="35.0" layoutY="215.0" prefHeight="391.0" prefWidth="550.0">
          <content>
-            <Label fx:id="listapizza" alignment="TOP_LEFT" prefHeight="1.0" prefWidth="1983.0">
+            <Label fx:id="listapizza" alignment="TOP_LEFT" prefHeight="2000.0" prefWidth="1983.0">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
@@ -69,7 +64,7 @@
       </ScrollPane>
       <ScrollPane fx:id="scrollbebida" layoutX="634.0" layoutY="214.0" prefHeight="391.0" prefWidth="550.0">
          <content>
-            <Label fx:id="listabebida" alignment="TOP_LEFT" prefHeight="2.0" prefWidth="2000.0">
+            <Label fx:id="listabebida" alignment="TOP_LEFT" prefHeight="2000.0" prefWidth="2000.0">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
@@ -93,5 +88,10 @@
             <Font size="15.0" />
          </font>
       </Label>
+      <ImageView fx:id="imagemPizz" fitHeight="35.0" fitWidth="28.0" layoutX="844.0" layoutY="716.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../OneDrive%20-%20Sociedade%20Goiana%20de%20Cultura/Restaurante/Carrinho/fatia.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>

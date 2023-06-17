@@ -26,16 +26,16 @@ public class BebidasClienteController implements Initializable {
     private Button anterior;
 
     @FXML
-    private CheckBox bebida1;
+    private RadioButton bebida1;
 
     @FXML
-    private CheckBox bebida2;
+    private RadioButton bebida2;
 
     @FXML
-    private CheckBox bebida3;
+    private RadioButton bebida3;
 
     @FXML
-    private CheckBox bebida4;
+    private RadioButton bebida4;
 
     @FXML
     private Button botaoCaarrinho;
@@ -56,22 +56,13 @@ public class BebidasClienteController implements Initializable {
     private Circle ciruculo;
 
     @FXML
-    private ImageView imagemBebe;
+    private ImageView imagemBeb;
 
     @FXML
-    private ImageView imagemBebida;
+    private ImageView imagemBol;
 
     @FXML
-    private ImageView imagemBebidas;
-
-    @FXML
-    private ImageView imagemBolsa;
-
-    @FXML
-    private ImageView imagemPizza;
-
-    @FXML
-    private ImageView imagemVoltar;
+    private ImageView imagemTresBebidas;
 
     @FXML
     private ImageView imagembebida1;
@@ -84,6 +75,9 @@ public class BebidasClienteController implements Initializable {
 
     @FXML
     private ImageView imagembebida4;
+
+    @FXML
+    private ToggleGroup juntar;
 
     @FXML
     private Line linhaCarrinho;

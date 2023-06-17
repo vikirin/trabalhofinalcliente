@@ -54,6 +54,9 @@ public class CarrinhoClienteController implements Initializable {
     private ImageView imagemCopo;
 
     @FXML
+    private ImageView imagemPizz;
+
+    @FXML
     private ImageView imagemPizza;
 
     @FXML

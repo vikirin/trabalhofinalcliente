@@ -41,7 +41,7 @@ public class LoginClienteController implements Initializable {
     private AnchorPane painelPrincipal;
 
     @FXML
-    private ImageView pessoaImagem;
+    private ImageView imagemPessoa;
 
     @FXML
     private TextField textNome;

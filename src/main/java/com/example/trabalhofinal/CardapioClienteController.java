@@ -50,16 +50,10 @@ public class CardapioClienteController implements Initializable {
     private ToggleGroup essapizza;
 
     @FXML
-    private ImageView imaagemPizzaGrande;
+    private ImageView imagemBolsaC;
 
     @FXML
-    private ImageView imagemBolsa;
-
-    @FXML
-    private ImageView imagemCopo;
-
-    @FXML
-    private ImageView imagemPizza;
+    private ImageView imagemCop;
 
     @FXML
     private ImageView imagemPizza1;
@@ -74,7 +68,13 @@ public class CardapioClienteController implements Initializable {
     private ImageView imagemPizza4;
 
     @FXML
-    private ImageView imagemPrincipal;
+    private ImageView imagemPizzaMenor;
+
+    @FXML
+    private ImageView imagemPizzaPrincipal;
+
+    @FXML
+    private ImageView imagemPizzaQuadrado;
 
     @FXML
     private ImageView imagemVoltar;
@@ -365,7 +365,7 @@ public class CardapioClienteController implements Initializable {
                         } else {
                             if (listaPizza == proximos-2) {
                                 nomepizza3.setText(p.getNomeProduto());
-                                valorPizza3.setText(p.getValor().toString());
+                                valorPizza3.setText("R$"+p.getValor().toString());
                                 imagemPizza3.setImage(new Image(p.getImagem().toString()));
                                 pizza3.setOpacity(100);
                                 idpizza3=p.getIdPizza();

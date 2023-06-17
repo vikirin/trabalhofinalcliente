@@ -50,7 +50,7 @@ public class CadastroClienteController implements Initializable {
     private AnchorPane retanguloBaixo;
 
     @FXML
-    private ImageView segurancaImagem;
+    private ImageView imagemEscudo;
 
     @FXML
     private PasswordField textConfirmarSenha;
