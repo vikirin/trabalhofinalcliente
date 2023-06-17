@@ -1,6 +1,6 @@
 package com.example.trabalhofinal;
 
-import dao.Pre_pedidobebidaDAO;
+import com.example.trabalhofinal.dao.Pre_pedidobebidaDAO;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
@@ -10,11 +10,11 @@ import javafx.scene.layout.AnchorPane;
 import javafx.scene.shape.Circle;
 import javafx.scene.shape.Line;
 import javafx.stage.Stage;
-import model.pizza;
-import dao.PizzaDAO;
-import model.pre_pedidobebida;
-import model.pre_pedidopizza;
-import dao.Pre_pedidopizzaDAO;
+import com.example.trabalhofinal.model.pizza;
+import com.example.trabalhofinal.dao.PizzaDAO;
+import com.example.trabalhofinal.model.pre_pedidobebida;
+import com.example.trabalhofinal.model.pre_pedidopizza;
+import com.example.trabalhofinal.dao.Pre_pedidopizzaDAO;
 
 import java.net.URL;
 import java.util.List;

@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="painelPrincipal" prefHeight="847.0" prefWidth="1218.0" style="-fx-background-radius: 20px;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.trabalhofinal.CarrinhoClienteController">
+<AnchorPane fx:id="painelPrincipal" prefHeight="766.0" prefWidth="1220.0" style="-fx-background-radius: 20px;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.trabalhofinal.CarrinhoClienteController">
    <children>
       <AnchorPane fx:id="retanguloGrande" prefHeight="151.0" prefWidth="1200.0" style="-fx-background-color: #FFA500; -fx-background-radius: 20px;">
          <children>
@@ -51,16 +51,16 @@
             </Label>
          </children>
       </AnchorPane>
-      <Button fx:id="botaoFinalizar" layoutX="891.0" layoutY="750.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="245.0" style="-fx-background-color: green; -fx-background-radius: 15px;" text="Finalizar Pedido" textFill="WHITE" />
-      <ImageView fx:id="imagemPizza" fitHeight="73.0" fitWidth="41.0" layoutX="837.0" layoutY="747.0" pickOnBounds="true" preserveRatio="true">
+      <Button fx:id="botaoFinalizar" layoutX="891.0" layoutY="712.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="245.0" style="-fx-background-color: green; -fx-background-radius: 15px;" text="Finalizar Pedido" textFill="WHITE" />
+      <ImageView fx:id="imagemPizza" fitHeight="81.0" fitWidth="41.0" layoutX="837.0" layoutY="669.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="file:///C:/Users/Computador/OneDrive%20-%20Sociedade%20Goiana%20de%20Cultura/fatia.png" />
          </image>
       </ImageView>
-      <Button fx:id="botaoEditarPedido" layoutX="61.0" layoutY="754.0" mnemonicParsing="false" style="-fx-background-radius: 10px; -fx-background-color: #FFA500;" text="Editar Pedido" textFill="WHITE" />
+      <Button fx:id="botaoEditarPedido" layoutX="64.0" layoutY="717.0" mnemonicParsing="false" style="-fx-background-radius: 10px; -fx-background-color: #FFA500;" text="Excluir Pedido" textFill="WHITE" />
       <ScrollPane fx:id="scrollpiizza" layoutX="35.0" layoutY="215.0" prefHeight="391.0" prefWidth="550.0">
          <content>
-            <Label fx:id="listapizza" alignment="TOP_LEFT" prefHeight="1972.0" prefWidth="1983.0">
+            <Label fx:id="listapizza" alignment="TOP_LEFT" prefHeight="1.0" prefWidth="1983.0">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
@@ -69,7 +69,7 @@
       </ScrollPane>
       <ScrollPane fx:id="scrollbebida" layoutX="634.0" layoutY="214.0" prefHeight="391.0" prefWidth="550.0">
          <content>
-            <Label fx:id="listabebida" alignment="TOP_LEFT" prefHeight="2000.0" prefWidth="2000.0">
+            <Label fx:id="listabebida" alignment="TOP_LEFT" prefHeight="2.0" prefWidth="2000.0">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
@@ -84,11 +84,11 @@
          <font>
             <Font name="Consolas" size="22.0" />
          </font></Label>
-      <Label fx:id="valortotal" layoutX="1012.0" layoutY="693.0" text="Label">
+      <Label fx:id="valortotal" layoutX="1012.0" layoutY="658.0" text="Label">
          <font>
             <Font size="20.0" />
          </font></Label>
-      <Label fx:id="totalLabel" layoutX="947.0" layoutY="698.0" text="Total:">
+      <Label fx:id="totalLabel" layoutX="947.0" layoutY="663.0" text="Total:">
          <font>
             <Font size="15.0" />
          </font>

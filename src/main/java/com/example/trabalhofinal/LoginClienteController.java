@@ -1,7 +1,7 @@
 package com.example.trabalhofinal;
 
-import auxiliares.CriarSenha;
-import dao.ClienteDAO;
+import com.example.trabalhofinal.auxiliares.CriarSenha;
+import com.example.trabalhofinal.dao.ClienteDAO;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
@@ -11,7 +11,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
-import model.cliente;
+import com.example.trabalhofinal.model.cliente;
 
 
 import java.io.UnsupportedEncodingException;

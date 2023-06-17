@@ -1,8 +1,8 @@
 package com.example.trabalhofinal;
 
-import dao.Pre_pedidobebidafinalDAO;
-import dao.Pre_pedidopizzafinalDAO;
-import jasper.jaspercontroller;
+import com.example.trabalhofinal.dao.Pre_pedidobebidafinalDAO;
+import com.example.trabalhofinal.dao.Pre_pedidopizzafinalDAO;
+import com.example.trabalhofinal.jasper.jaspercontroller;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
@@ -12,12 +12,12 @@ import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
-import dao.Pre_pedidobebidaDAO;
-import dao.Pre_pedidopizzaDAO;
-import model.pre_pedidobebida;
-import model.pre_pedidobebidafinal;
-import model.pre_pedidopizza;
-import model.pre_pedidopizzafinal;
+import com.example.trabalhofinal.dao.Pre_pedidobebidaDAO;
+import com.example.trabalhofinal.dao.Pre_pedidopizzaDAO;
+import com.example.trabalhofinal.model.pre_pedidobebida;
+import com.example.trabalhofinal.model.pre_pedidobebidafinal;
+import com.example.trabalhofinal.model.pre_pedidopizza;
+import com.example.trabalhofinal.model.pre_pedidopizzafinal;
 import net.sf.jasperreports.engine.JRException;
 
 import java.net.URL;
@@ -129,7 +129,7 @@ public class CarrinhoClienteController implements Initializable {
         List<pre_pedidopizzafinal> prePedidopizzafinalList = pre_PedidopizzafinalDAO.findall();
 
         botaoFinalizar.setOnMouseClicked((event)->{
-            for (pre_pedidopizza p : prePedidopizzaList){
+           /* for (pre_pedidopizza p : prePedidopizzaList){
                 if (p.getIdcliente()==LoginClienteController.getIdcliente()) {
                     prepedidopizzafinal.setValortotal(p.getValortotal());
                     prepedidopizzafinal.setIdcliente(p.getIdcliente());
@@ -153,15 +153,15 @@ public class CarrinhoClienteController implements Initializable {
                     prePedidobebidafinal.setNomebebida(b.getNomebebida());
                     pre_PedidobebidafinalDAO.create(prePedidobebidafinal);
                 }
-            }
-           /* jaspercontroller controller;
+            }*/
+            jaspercontroller controller;
             controller =new jaspercontroller();
             try {
                 controller.gerarRelatorio();
             } catch (JRException e) {
                 throw new RuntimeException(e);
-            }*/
-            for (pre_pedidopizza p : prePedidopizzaList){
+            }
+            /*for (pre_pedidopizza p : prePedidopizzaList){
                 if (p.getIdcliente()==LoginClienteController.getIdcliente()) {
                     pre_PedidopizzaDAO.delete(p.getIdPedido());
                 }
@@ -170,7 +170,7 @@ public class CarrinhoClienteController implements Initializable {
                 if (b.getIdclinte()==LoginClienteController.getIdcliente()) {
                     pre_PedidobebidaDAO.delete(b.getIdpedido());
                 }
-            }
+            }*/
             PrincipalCarrinhoCliente principalCarrinhoCliente = new PrincipalCarrinhoCliente();
             PrincipalCarrinhoCliente.getStage().close();
             try{
