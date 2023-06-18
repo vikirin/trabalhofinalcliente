@@ -76,7 +76,7 @@ FROM trabalho.pre_pedidobebida,
 				<textElement>
 					<font size="22"/>
 				</textElement>
-				<text><![CDATA[4 Pizzas Plus]]></text>
+				<text><![CDATA[4 Tipos-Plus]]></text>
 			</staticText>
 			<textField pattern="HH:mm">
 				<reportElement x="410" y="99" width="140" height="20" uuid="458e7135-6dd4-4205-a973-af3a53cc97fb"/>
@@ -96,101 +96,105 @@ FROM trabalho.pre_pedidobebida,
 		</band>
 	</pageHeader>
 	<columnHeader>
-		<band height="32" splitType="Stretch">
+		<band height="31" splitType="Stretch">
 			<line>
-				<reportElement x="24" y="30" width="507" height="1" uuid="812aa4af-4e51-41ac-8585-11b9dd24203b"/>
+				<reportElement x="0" y="25" width="274" height="1" uuid="812aa4af-4e51-41ac-8585-11b9dd24203b"/>
 			</line>
 			<staticText>
-				<reportElement x="19" y="0" width="100" height="30" uuid="77ee7728-d119-43d1-91a7-caa97c676797">
+				<reportElement x="74" y="0" width="100" height="30" uuid="77ee7728-d119-43d1-91a7-caa97c676797">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="3f03f384-f66f-4eed-89ac-c1526091070f"/>
 				</reportElement>
-				<text><![CDATA[sabor]]></text>
+				<text><![CDATA[Pizza]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="-20" y="0" width="38" height="30" uuid="cace7883-0925-482e-835b-f24fbb62a130">
+				<reportElement x="5" y="0" width="38" height="30" uuid="cace7883-0925-482e-835b-f24fbb62a130">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="3de9061e-e772-40ff-be68-0584ef3d9400"/>
 				</reportElement>
-				<text><![CDATA[idPizza]]></text>
+				<text><![CDATA[ID]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="120" y="0" width="100" height="30" uuid="8693ba06-8fe8-42c9-b720-1f226601268b">
+				<reportElement x="140" y="0" width="100" height="30" uuid="8693ba06-8fe8-42c9-b720-1f226601268b">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="a5656e59-74a6-4bf0-907c-fc7b01c89608"/>
 				</reportElement>
-				<text><![CDATA[tamanho]]></text>
+				<text><![CDATA[Tamanho]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="520" y="0" width="54" height="30" uuid="c938249b-d7b9-430c-a61d-2416005d1c87">
+				<reportElement x="507" y="0" width="54" height="30" uuid="c938249b-d7b9-430c-a61d-2416005d1c87">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="f2730514-4482-4a6d-a4c0-b880331f29c7"/>
 				</reportElement>
-				<text><![CDATA[valortotalb]]></text>
+				<text><![CDATA[Valor]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="274" y="1" width="38" height="30" uuid="8c10ca70-7092-4f11-8f41-7811c33416dc">
+				<reportElement x="295" y="1" width="38" height="30" uuid="8c10ca70-7092-4f11-8f41-7811c33416dc">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="4a29fac8-8fb4-45a4-a937-bb3721316cb7"/>
 				</reportElement>
-				<text><![CDATA[idBebida]]></text>
+				<text><![CDATA[ID]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="312" y="0" width="100" height="30" uuid="d5431b8a-281a-4d35-b7f0-bc7473fa1a82">
+				<reportElement x="343" y="0" width="100" height="30" uuid="d5431b8a-281a-4d35-b7f0-bc7473fa1a82">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="679425f5-c447-4d85-b669-05ae2f9ef3ca"/>
 				</reportElement>
-				<text><![CDATA[nomebebida]]></text>
+				<text><![CDATA[Bebida]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="420" y="1" width="100" height="30" uuid="5b16624e-e664-4cc2-99b9-795addd9d6a1">
+				<reportElement x="419" y="1" width="100" height="30" uuid="5b16624e-e664-4cc2-99b9-795addd9d6a1">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="9cfb2ce6-547f-4994-af6b-1bcde6683434"/>
 				</reportElement>
-				<text><![CDATA[quntidade]]></text>
+				<text><![CDATA[Quantidade]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="220" y="1" width="54" height="30" uuid="dedc1259-1129-48c7-bac2-f8c9b5218e09">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="5bb715fd-cfc1-46bd-a319-4204ecfaccc8"/>
 				</reportElement>
-				<text><![CDATA[valortotalp]]></text>
+				<text><![CDATA[Valor]]></text>
 			</staticText>
+			<line>
+				<reportElement x="286" y="25" width="267" height="1" uuid="72f6e20f-65e8-4248-950a-07998586faf0"/>
+			</line>
 		</band>
 	</columnHeader>
 	<detail>
-		<band height="47" splitType="Stretch">
+		<band height="29" splitType="Stretch">
 			<textField>
-				<reportElement x="19" y="0" width="100" height="30" uuid="ba2cf528-7a20-432a-891b-e77de9f6a008">
+				<reportElement x="44" y="-1" width="100" height="30" uuid="ba2cf528-7a20-432a-891b-e77de9f6a008">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="3f03f384-f66f-4eed-89ac-c1526091070f"/>
 				</reportElement>
 				<textFieldExpression><![CDATA[$F{sabor}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="-20" y="0" width="38" height="30" uuid="997a9dc4-37a0-4a36-9182-e50c08d04bea">
+				<reportElement x="3" y="-1" width="38" height="30" uuid="997a9dc4-37a0-4a36-9182-e50c08d04bea">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="3de9061e-e772-40ff-be68-0584ef3d9400"/>
 				</reportElement>
 				<textFieldExpression><![CDATA[$F{idPizza}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="120" y="0" width="100" height="30" uuid="82ab31b5-b649-4108-8e21-5dd6b43c07ef">
+				<reportElement x="146" y="-1" width="100" height="30" uuid="82ab31b5-b649-4108-8e21-5dd6b43c07ef">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="a5656e59-74a6-4bf0-907c-fc7b01c89608"/>
 				</reportElement>
 				<textFieldExpression><![CDATA[$F{tamanho}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="520" y="0" width="54" height="30" uuid="6445801c-7a11-42e8-b4aa-11969166558b">
+				<reportElement x="509" y="-1" width="54" height="30" uuid="6445801c-7a11-42e8-b4aa-11969166558b">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="f2730514-4482-4a6d-a4c0-b880331f29c7"/>
 				</reportElement>
-				<textFieldExpression><![CDATA[$F{valortotalb}]]></textFieldExpression>
+				<textFieldExpression><![CDATA["R$" + $F{valortotalb}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="276" y="-2" width="38" height="30" uuid="47abd1dc-1cd6-4298-98e2-569ef4fc7e5f">
+				<reportElement x="294" y="-2" width="38" height="30" uuid="47abd1dc-1cd6-4298-98e2-569ef4fc7e5f">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="4a29fac8-8fb4-45a4-a937-bb3721316cb7"/>
 				</reportElement>
 				<textFieldExpression><![CDATA[$F{idBebida}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="312" y="-2" width="100" height="30" uuid="28e16778-df72-4a27-bf54-0b06cf0d1a36">
+				<reportElement x="345" y="-2" width="100" height="30" uuid="28e16778-df72-4a27-bf54-0b06cf0d1a36">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="679425f5-c447-4d85-b669-05ae2f9ef3ca"/>
 				</reportElement>
 				<textFieldExpression><![CDATA[$F{nomebebida}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="412" y="0" width="100" height="30" uuid="24311ba8-c799-427d-ab60-44d2aacbe135">
+				<reportElement x="433" y="-1" width="100" height="30" uuid="24311ba8-c799-427d-ab60-44d2aacbe135">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="9cfb2ce6-547f-4994-af6b-1bcde6683434"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
 				</reportElement>
 				<textFieldExpression><![CDATA[$F{quntidade}]]></textFieldExpression>
 			</textField>
@@ -198,7 +202,7 @@ FROM trabalho.pre_pedidobebida,
 				<reportElement x="220" y="-2" width="50" height="30" uuid="4c651c31-5552-432d-968f-bb5f168d6abe">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="5bb715fd-cfc1-46bd-a319-4204ecfaccc8"/>
 				</reportElement>
-				<textFieldExpression><![CDATA[$F{valortotalp}]]></textFieldExpression>
+				<textFieldExpression><![CDATA["R$" + $F{valortotalp}]]></textFieldExpression>
 			</textField>
 		</band>
 	</detail>

@@ -50,10 +50,16 @@ public class CardapioClienteController implements Initializable {
     private ToggleGroup essapizza;
 
     @FXML
-    private ImageView imagemBolsaC;
+    private ImageView imagemBlsa;
 
     @FXML
-    private ImageView imagemCop;
+    private ImageView imagemCpo;
+
+    @FXML
+    private ImageView imagemFatia;
+
+    @FXML
+    private ImageView imagemPiQ;
 
     @FXML
     private ImageView imagemPizza1;
@@ -68,16 +74,10 @@ public class CardapioClienteController implements Initializable {
     private ImageView imagemPizza4;
 
     @FXML
-    private ImageView imagemPizzaMenor;
-
-    @FXML
     private ImageView imagemPizzaPrincipal;
 
     @FXML
-    private ImageView imagemPizzaQuadrado;
-
-    @FXML
-    private ImageView imagemVoltar;
+    private ImageView imagemVlt;
 
     @FXML
     private Line linhaCarrinho;

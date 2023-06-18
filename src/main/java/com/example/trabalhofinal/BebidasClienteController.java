@@ -62,7 +62,16 @@ public class BebidasClienteController implements Initializable {
     private ImageView imagemBol;
 
     @FXML
+    private ImageView imagemCopo;
+
+    @FXML
+    private ImageView imagemFatia;
+
+    @FXML
     private ImageView imagemTresBebidas;
+
+    @FXML
+    private ImageView imagemVoltar;
 
     @FXML
     private ImageView imagembebida1;

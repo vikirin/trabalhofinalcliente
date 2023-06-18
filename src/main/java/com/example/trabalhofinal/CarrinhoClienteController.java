@@ -48,19 +48,19 @@ public class CarrinhoClienteController implements Initializable {
     private Button botaoVoltar;
 
     @FXML
-    private ImageView imagemCarrinho;
+    private ImageView imagemCar;
 
     @FXML
-    private ImageView imagemCopo;
+    private ImageView imagemCpo;
 
     @FXML
-    private ImageView imagemPizz;
+    private ImageView imagemFatia;
 
     @FXML
-    private ImageView imagemPizza;
+    private ImageView imagemPp;
 
     @FXML
-    private ImageView imagemVoltar;
+    private ImageView imagemVta;
 
     @FXML
     private Label listabebida;
@@ -110,13 +110,13 @@ public class CarrinhoClienteController implements Initializable {
 
         for (pre_pedidopizza p : prePedidopizzaList){
             if (p.getIdcliente()==LoginClienteController.getIdcliente()) {
-                listapizza.setText(listapizza.getText() + "Pizza de " + p.getSabor() + " de tamanho " + p.getTamanho() + " de valor " + p.getValortotal() + "\n");
+                listapizza.setText(listapizza.getText() + "-> Pizza: " + p.getSabor() + "\n-> Tamanho: " + p.getTamanho() + "\n-> Valor: R$" + p.getValortotal() + "\n----------------------------------------------------------------\n");
                 total = p.getValortotal() + total;
             }
         }
         for (pre_pedidobebida b : prePedidobebidaList){
             if (b.getIdclinte()==LoginClienteController.getIdcliente()) {
-                listabebida.setText(listabebida.getText() + "" + b.getNomebebida() + " de valor " + b.getValortotal() + " quantidade " + b.getQuantidade() + "\n");
+                listabebida.setText(listabebida.getText() + "-> Bebida: " + b.getNomebebida() + "\n-> Valor: R$" + b.getValortotal() + "\n-> Quantidade: " + b.getQuantidade() + "\n----------------------------------------------------------------\n");
                 total = b.getValortotal() + total;
             }
         }
@@ -132,7 +132,14 @@ public class CarrinhoClienteController implements Initializable {
         List<pre_pedidopizzafinal> prePedidopizzafinalList = pre_PedidopizzafinalDAO.findall();
 
         botaoFinalizar.setOnMouseClicked((event)->{
-           /* for (pre_pedidopizza p : prePedidopizzaList){
+            jaspercontroller controller;
+            controller =new jaspercontroller();
+            try {
+                controller.gerarRelatorio();
+            } catch (JRException e) {
+                throw new RuntimeException(e);
+            }
+           for (pre_pedidopizza p : prePedidopizzaList){
                 if (p.getIdcliente()==LoginClienteController.getIdcliente()) {
                     prepedidopizzafinal.setValortotal(p.getValortotal());
                     prepedidopizzafinal.setIdcliente(p.getIdcliente());
@@ -143,10 +150,6 @@ public class CarrinhoClienteController implements Initializable {
 
                 }
             }
-
-
-
-
             for (pre_pedidobebida b : prePedidobebidaList){
                 if (b.getIdclinte()==LoginClienteController.getIdcliente()) {
                     prePedidobebidafinal.setIdclinte(b.getIdclinte());
@@ -156,15 +159,9 @@ public class CarrinhoClienteController implements Initializable {
                     prePedidobebidafinal.setNomebebida(b.getNomebebida());
                     pre_PedidobebidafinalDAO.create(prePedidobebidafinal);
                 }
-            }*/
-            jaspercontroller controller;
-            controller =new jaspercontroller();
-            try {
-                controller.gerarRelatorio();
-            } catch (JRException e) {
-                throw new RuntimeException(e);
             }
-            /*for (pre_pedidopizza p : prePedidopizzaList){
+
+            for (pre_pedidopizza p : prePedidopizzaList){
                 if (p.getIdcliente()==LoginClienteController.getIdcliente()) {
                     pre_PedidopizzaDAO.delete(p.getIdPedido());
                 }
@@ -173,7 +170,7 @@ public class CarrinhoClienteController implements Initializable {
                 if (b.getIdclinte()==LoginClienteController.getIdcliente()) {
                     pre_PedidobebidaDAO.delete(b.getIdpedido());
                 }
-            }*/
+            }
             PrincipalCarrinhoCliente principalCarrinhoCliente = new PrincipalCarrinhoCliente();
             PrincipalCarrinhoCliente.getStage().close();
             try{
@@ -232,6 +229,10 @@ public class CarrinhoClienteController implements Initializable {
             }catch(Exception e){
 
             }
+        });
+
+        botaoFechar.setOnMouseClicked((event)->{
+            PrincipalCarrinhoCliente.getStage().close();
         });
     }
 }

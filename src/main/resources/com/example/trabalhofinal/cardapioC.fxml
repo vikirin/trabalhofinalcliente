@@ -17,9 +17,9 @@
          <children>
             <AnchorPane layoutX="664.0" layoutY="52.0" prefHeight="40.0" prefWidth="39.0" style="-fx-background-color: #BB5419;">
                <children>
-                  <ImageView fx:id="imagemPizzaMenor" fitHeight="30.0" fitWidth="23.0" layoutX="8.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fx:id="imagemFatia" fitHeight="59.0" fitWidth="30.0" layoutX="4.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../../../../../../OneDrive%20-%20Sociedade%20Goiana%20de%20Cultura/Restaurante/Cardapio/fatiaP.png" />
+                        <Image url="C:/Users/notes/OneDrive - Sociedade Goiana de Cultura/Restaurante/Cardapio/fatiaP.png" />
                      </image>
                   </ImageView>
                </children></AnchorPane>
@@ -28,15 +28,15 @@
                   <Font size="24.0" />
                </font>
             </Button>
-            <ImageView fx:id="imagemVoltar" fitHeight="86.0" fitWidth="29.0" layoutX="525.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="imagemVlt" fitHeight="30.0" fitWidth="35.0" layoutX="526.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../../../../../OneDrive%20-%20Sociedade%20Goiana%20de%20Cultura/Restaurante/Cardapio/voltar.png" />
+                  <Image url="C:/Users/notes/OneDrive - Sociedade Goiana de Cultura/Restaurante/Cardapio/voltar.png" />
                </image>
             </ImageView>
             <Button fx:id="botaoVoltar" alignment="CENTER" contentDisplay="RIGHT" layoutX="518.0" layoutY="56.0" minWidth="41.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="41.0" style="-fx-background-color: transparent;" />
-            <ImageView fx:id="imagemCop" fitHeight="56.0" fitWidth="31.0" layoutX="799.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="imagemCpo" fitHeight="40.0" fitWidth="30.0" layoutX="809.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../../../../../OneDrive%20-%20Sociedade%20Goiana%20de%20Cultura/Restaurante/Cardapio/ta├ºa.png" />
+                  <Image url="C:/Users/notes/OneDrive - Sociedade Goiana de Cultura/Restaurante/Cardapio/taca.png" />
                </image>
             </ImageView>
             <Button fx:id="botaoBebidas" layoutX="764.0" layoutY="55.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="99.0" style="-fx-background-color: transparent;" />
@@ -49,9 +49,9 @@
       </ImageView>
       <AnchorPane fx:id="quadradoPizza" layoutX="315.0" layoutY="337.0" prefHeight="120.0" prefWidth="140.0" style="-fx-background-color: white; -fx-background-radius: 20px;">
          <children>
-            <ImageView fx:id="imagemPizzaQuadrado" fitHeight="79.0" fitWidth="105.0" layoutX="17.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="imagemPiQ" fitHeight="89.0" fitWidth="108.0" layoutX="16.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../../../../../OneDrive%20-%20Sociedade%20Goiana%20de%20Cultura/Restaurante/Cardapio/PizzaGrandde.png" />
+                  <Image url="C:/Users/notes/OneDrive - Sociedade Goiana de Cultura/Restaurante/Cardapio/PizzaGrandde.png" />
                </image>
             </ImageView>
          </children></AnchorPane>
@@ -74,9 +74,9 @@
             </Label>
             <Line fx:id="linhaCarrinho" endX="100.0" layoutX="109.0" layoutY="44.0" startX="-100.0" />
             <Circle fx:id="circulo" fill="#ff1f1f" layoutX="160.0" layoutY="84.0" radius="10.0" stroke="RED" strokeType="INSIDE" />
-            <ImageView fx:id="imagemBolsaC" fitHeight="145.0" fitWidth="135.0" layoutX="38.0" layoutY="76.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="imagemBlsa" fitHeight="150.0" fitWidth="200.0" layoutX="33.0" layoutY="66.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../../../../../OneDrive%20-%20Sociedade%20Goiana%20de%20Cultura/Restaurante/Cardapio/bolsa.png" />
+                  <Image url="C:/Users/notes/OneDrive - Sociedade Goiana de Cultura/Restaurante/Cardapio/bolsa.png" />
                </image>
             </ImageView>
          </children>

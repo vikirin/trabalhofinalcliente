@@ -24,17 +24,17 @@
                <font>
                   <Font size="26.0" />
                </font></Button>
-            <Label fx:id="bemvindoLabel" layoutX="163.0" layoutY="31.0" text="BEM-VINDO" textFill="WHITE">
+            <Label fx:id="bemvindoLabel" layoutX="166.0" layoutY="31.0" text="BEM-VINDO" textFill="WHITE">
                <font>
                   <Font name="Bodoni MT Condensed Bold" size="23.0" />
                </font>
             </Label>
-            <Label fx:id="pizzaLabel" layoutX="118.0" layoutY="56.0" text="4 PIZZAS PLUS" textFill="WHITE">
+            <Label fx:id="pizzaLabel" layoutX="126.0" layoutY="56.0" text="4 TIPOS-PLUS" textFill="WHITE">
                <font>
                   <Font name="Bell MT" size="31.0" />
                </font>
             </Label>
-            <ImageView fx:id="imagemLogo" fitHeight="89.0" fitWidth="200.0" layoutX="181.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="imagemLogo" fitHeight="131.0" fitWidth="126.0" layoutX="163.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="C:/Users/notes/OneDrive - Sociedade Goiana de Cultura/Restaurante/Geral/logo.png" />
                </image>

@@ -15,9 +15,26 @@
    <children>
       <AnchorPane fx:id="retanguloMaior" prefHeight="121.0" prefWidth="1332.0" style="-fx-background-color: #FFA500; -fx-background-radius: 20px;">
          <children>
-            <AnchorPane fx:id="quadradoBebidaMaior" layoutX="740.0" layoutY="29.0" prefHeight="41.0" prefWidth="40.0" style="-fx-background-color: #BB5419;" />
-            <Button fx:id="botaoVoltar" layoutX="539.0" layoutY="38.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="51.0" style="-fx-background-color: transparent;" />
+            <AnchorPane fx:id="quadradoBebidaMaior" layoutX="740.0" layoutY="29.0" prefHeight="41.0" prefWidth="40.0" style="-fx-background-color: #BB5419;">
+               <children>
+                  <ImageView fx:id="imagemCopo" fitHeight="74.0" fitWidth="33.0" layoutX="4.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="C:/Users/notes/OneDrive - Sociedade Goiana de Cultura/Restaurante/Cardapio/taca.png" />
+                     </image>
+                  </ImageView>
+               </children></AnchorPane>
+            <ImageView fx:id="imagemFatia" fitHeight="30.0" fitWidth="33.0" layoutX="650.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="C:/Users/notes/OneDrive - Sociedade Goiana de Cultura/Restaurante/Cardapio/fatiaP.png" />
+               </image>
+            </ImageView>
             <Button fx:id="botaoPizza" layoutX="641.0" layoutY="34.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="51.0" style="-fx-background-color: transparent;" />
+            <ImageView fx:id="imagemVoltar" fitHeight="50.0" fitWidth="30.0" layoutX="550.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="C:/Users/notes/OneDrive - Sociedade Goiana de Cultura/Restaurante/Cardapio/voltar.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="botaoVoltar" layoutX="539.0" layoutY="38.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="51.0" style="-fx-background-color: transparent;" />
          </children>
       </AnchorPane>
       <ImageView fx:id="imagemBeb" fitHeight="239.0" fitWidth="581.0" layoutX="366.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
