@@ -15,7 +15,7 @@ public class Pre_pedidobebidafinalDAO implements ipre_pedidobebidafinalDAO {
     public pre_pedidobebidafinal create(pre_pedidobebidafinal pre_pedidobebidafinal) {
         try(Connection connection = connectionFactory.getConnection()){
             String query = "INSERT INTO pre_pedidobebidafinal"
-                    +"(quntidade,nomebebida,valortotal,idcliente,idBebida)"+
+                    +"(quntidade,nomebebida,valortotalb,idcliente,idBebida)"+
                     " VALUES (?,?,?,?,?)";
             PreparedStatement statement = connection.prepareStatement(query, Statement.RETURN_GENERATED_KEYS);
             statement.setLong(1, pre_pedidobebidafinal.getQuantidade());

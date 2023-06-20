@@ -42,7 +42,6 @@ public class BebidaDAO implements ibebidaDAO {
             statement.setFloat(2, bebida.getValor());
             statement.setString(3, bebida.getImagem());
             statement.setLong(4, bebida.getIdBebida());
-
             statement.executeUpdate();
         }catch (SQLException e){
             throw new RuntimeException(e);
